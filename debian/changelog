@@ -22,5 +22,7 @@ python-petname (1.0) unreleased; urgency=medium
     - add an example caller script
   * names.txt:
     - remove stray paren
+  * adverbs.txt:
+    - remove stray line
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Sat, 13 Dec 2014 11:27:59 -0600
