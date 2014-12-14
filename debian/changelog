@@ -24,5 +24,7 @@ python-petname (1.0) unreleased; urgency=medium
     - remove stray paren
   * adverbs.txt:
     - remove stray line
+  * debian/control:
+    - drop a build depend
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Sat, 13 Dec 2014 11:27:59 -0600
