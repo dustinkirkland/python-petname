@@ -15,5 +15,7 @@ python-petname (1.0) unreleased; urgency=medium
     petname, === added directory usr/share/doc/python-petname/examples,
     debian/rules, petname/petname.py, update.sh:
     - fix python module definition
+  * petname/__init__.py, petname/petname.py => petname/__init__.py:
+    - populate __init__.py
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Sat, 13 Dec 2014 11:27:59 -0600
