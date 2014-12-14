@@ -10,6 +10,6 @@ for f in adverbs adjectives names; do
 		printf '"%s", ' "$w" >> "$f".txt.list
 	done
 	sed -i -e "s/, $//" "$f".txt.list
-	sed -i -e "s/    $f = [/$(cat ${f}.list)/" ${PKG}/${PKG}.py
+	sed -i -e "s/^$f = [.*$/$f = [$(cat ${f}.list)]/" ${PKG}/${PKG}.py
 	rm -f "$f".txt.list
 done
