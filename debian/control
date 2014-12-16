@@ -1,5 +1,5 @@
 Source: python-petname
-Section: admin
+Section: python
 Priority: optional
 Maintainer: Dustin Kirkland <kirkland@ubuntu.com>
 Build-Depends: debhelper (>= 8), python-all, petname

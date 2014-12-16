@@ -37,5 +37,7 @@ python-petname (1.0) unreleased; urgency=medium
     - rename/move the binary to /usr/bin/python-petname
   * README.md:
     - update readme with examples
+  * debian/copyright:
+    - update readme, add local location of license
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Sat, 13 Dec 2014 11:27:59 -0600
