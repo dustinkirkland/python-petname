@@ -29,5 +29,11 @@ python-petname (1.0) unreleased; urgency=medium
     wordlists.sh:
     - update the word list, build-depend on petname package which
       provides the word list
+  * === added directory usr/bin, === removed directory usr/share, ===
+    removed directory usr/share/doc, === removed directory
+    usr/share/doc/python-petname, === removed directory
+    usr/share/doc/python-petname/examples, usr/share/doc/python-
+    petname/examples/petname => usr/bin/python-petname:
+    - rename/move the binary to /usr/bin/python-petname
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Sat, 13 Dec 2014 11:27:59 -0600
