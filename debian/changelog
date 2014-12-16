@@ -1,6 +1,7 @@
 python-petname (1.1) unreleased; urgency=medium
 
-  * UNRELEASED
+  * README.md:
+    - readme updated with pip and pypi links/instructions
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 16 Dec 2014 13:45:32 -0600
 
