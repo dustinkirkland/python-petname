@@ -35,5 +35,7 @@ python-petname (1.0) unreleased; urgency=medium
     usr/share/doc/python-petname/examples, usr/share/doc/python-
     petname/examples/petname => usr/bin/python-petname:
     - rename/move the binary to /usr/bin/python-petname
+  * README.md:
+    - update readme with examples
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Sat, 13 Dec 2014 11:27:59 -0600
