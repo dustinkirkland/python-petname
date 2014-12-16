@@ -1,4 +1,4 @@
-python-petname (1.0) unreleased; urgency=medium
+python-petname (1.0-0ubuntu1) vivid; urgency=medium
 
   * cmd/petname/main.go, debian/control, debian/golang-petname-
     dev.install, debian/petname.install, __init__.py =>
@@ -48,4 +48,4 @@ python-petname (1.0) unreleased; urgency=medium
   * debian/update-wordlists.sh, README.md:
     - update readme from upstream
 
- -- Dustin Kirkland <kirkland@ubuntu.com>  Sat, 13 Dec 2014 11:27:59 -0600
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 16 Dec 2014 13:45:30 -0600
