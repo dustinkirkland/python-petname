@@ -1,6 +1,7 @@
 python-petname (1.2) unreleased; urgency=medium
 
-  * UNRELEASED
+  * petname/__init__.py:
+    - update names from upstream
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 16 Dec 2014 14:06:34 -0600
 
