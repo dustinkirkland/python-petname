@@ -45,5 +45,7 @@ python-petname (1.0) unreleased; urgency=medium
     - add a manpage
   * petname/__init__.py:
     - update wordlists from upstream
+  * debian/update-wordlists.sh, README.md:
+    - update readme from upstream
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Sat, 13 Dec 2014 11:27:59 -0600
