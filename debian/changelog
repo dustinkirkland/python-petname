@@ -1,3 +1,9 @@
+python-petname (1.2) unreleased; urgency=medium
+
+  * UNRELEASED
+
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 16 Dec 2014 14:06:34 -0600
+
 python-petname (1.1-0ubuntu1) vivid; urgency=medium
 
   * README.md:
