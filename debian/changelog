@@ -39,5 +39,9 @@ python-petname (1.0) unreleased; urgency=medium
     - update readme with examples
   * debian/copyright:
     - update readme, add local location of license
+  * === added directory usr/share, === added directory usr/share/man,
+    === added directory usr/share/man/man1, usr/share/man/man1/python-
+    petname.1:
+    - add a manpage
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Sat, 13 Dec 2014 11:27:59 -0600
