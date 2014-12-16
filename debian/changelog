@@ -1,9 +1,9 @@
-python-petname (1.1) unreleased; urgency=medium
+python-petname (1.1-0ubuntu1) vivid; urgency=medium
 
   * README.md:
     - readme updated with pip and pypi links/instructions
 
- -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 16 Dec 2014 13:45:32 -0600
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 16 Dec 2014 14:06:32 -0600
 
 python-petname (1.0-0ubuntu1) vivid; urgency=medium
 
