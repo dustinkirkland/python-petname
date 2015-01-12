@@ -2,7 +2,13 @@ Source: python-petname
 Section: python
 Priority: optional
 Maintainer: Dustin Kirkland <kirkland@ubuntu.com>
-Build-Depends: debhelper (>= 8), python-all, petname
+Build-Depends: debhelper (>= 8),
+ dh-python,
+ python-all,
+ python-setuptools,
+ python3-all,
+ python3-setuptools,
+ petname
 Standards-Version: 3.9.5
 Homepage: http://launchpad.net/petname
 Vcs-Browser: http://bazaar.launchpad.net/~petname/petname/trunk/files
@@ -12,6 +18,19 @@ Package: python-petname
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}, ${python:Depends}
 Description: python library for generating pronouncable, memorable, pet names
+ This package provides a library for generating "pet names", consisting
+ of a random combination of an adverb, adjective, and proper name.
+ These are useful for unique hostnames, for instance.
+ The default packaging contains about 2000 names, 1300 adjectives,
+ and 4000 adverbs, yielding nearly 10 billion unique combinations,
+ covering over 32 bits of unique namespace.
+ As such, PetName tries to follow the tenets of Zooko's triangle:
+ names are human meaningful, decentralized, and secure.
+
+Package: python3-petname
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}, ${python3:Depends}
+Description: python3 library for generating pronouncable, memorable, pet names
  This package provides a library for generating "pet names", consisting
  of a random combination of an adverb, adjective, and proper name.
  These are useful for unique hostnames, for instance.
