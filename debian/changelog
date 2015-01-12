@@ -6,7 +6,9 @@ python-petname (1.3) unreleased; urgency=medium
     - wordlists moved to /usr/share
   * petname/__init__.py:
     - rebuild word lists
-  * debian/control, debian/rules:
+  * debian/install => debian/python-petname.install, debian/python3-
+    petname.install, usr/bin/python3-petname, usr/bin/python-petname,
+    usr/share/man/man1/python3-petname.1:
     - build both python2 and python3
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 16 Dec 2014 14:33:35 -0600
