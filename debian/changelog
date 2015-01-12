@@ -1,6 +1,7 @@
 python-petname (1.3) unreleased; urgency=medium
 
-  * UNRELEASED
+  * debian/copyright:
+    - update links to python-petname
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 16 Dec 2014 14:33:35 -0600
 
