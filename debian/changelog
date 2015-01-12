@@ -2,6 +2,8 @@ python-petname (1.3) unreleased; urgency=medium
 
   * debian/copyright:
     - update links to python-petname
+  * debian/update-wordlists.sh:
+    - wordlists moved to /usr/share
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 16 Dec 2014 14:33:35 -0600
 
