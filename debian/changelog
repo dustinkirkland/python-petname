@@ -1,3 +1,9 @@
+python-petname (1.5) unreleased; urgency=medium
+
+  * UNRELEASED
+
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 13 Jan 2015 09:03:17 -0600
+
 python-petname (1.4-0ubuntu1) vivid; urgency=medium
 
   * debian/control:
