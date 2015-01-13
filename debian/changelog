@@ -1,6 +1,7 @@
 python-petname (1.4) unreleased; urgency=medium
 
-  * UNRELEASED
+  * debian/control:
+    - bump standards version
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Mon, 12 Jan 2015 14:36:26 -0600
 
