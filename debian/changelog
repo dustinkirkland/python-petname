@@ -2,6 +2,7 @@ python-petname (1.4) unreleased; urgency=medium
 
   * debian/control:
     - bump standards version
+  * remove pycache directory
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Mon, 12 Jan 2015 14:36:26 -0600
 
