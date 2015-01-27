@@ -31,7 +31,7 @@ def Adjective():
 def Name():
     return random.choice(names)
 
-def PetName(words, separator):
+def Generate(words, separator):
     if words == 1:
         return Name()
     elif words == 2:

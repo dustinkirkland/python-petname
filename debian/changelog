@@ -1,6 +1,8 @@
 python-petname (1.6) unreleased; urgency=medium
 
-  * UNRELEASED
+  * petname/__init__.py, usr/bin/python3-petname, usr/bin/python-
+    petname:
+    - change petname.PetName() to petname.Generate()
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 13 Jan 2015 11:26:35 -0600
 
