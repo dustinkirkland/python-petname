@@ -1,6 +1,7 @@
 python-petname (1.7) unreleased; urgency=medium
 
-  * UNRELEASED
+  * debian/update-wordlists.sh, petname/__init__.py, README.md:
+    - rebuild with new petname wordlists
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Mon, 26 Jan 2015 19:59:55 -0600
 
