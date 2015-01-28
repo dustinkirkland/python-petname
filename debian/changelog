@@ -1,3 +1,9 @@
+python-petname (1.8) unreleased; urgency=medium
+
+  * UNRELEASED
+
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Wed, 28 Jan 2015 15:46:53 -0600
+
 python-petname (1.7-0ubuntu1) vivid; urgency=medium
 
   * debian/update-wordlists.sh, petname/__init__.py, README.md:
