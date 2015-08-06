@@ -1,4 +1,4 @@
-python-petname (1.8) unreleased; urgency=medium
+python-petname (1.8-0ubuntu1) wily; urgency=medium
 
   [ Adam Isreal ]
   * debian/update-wordlists.sh, Makefile, petname/english.py,
@@ -13,7 +13,7 @@ python-petname (1.8) unreleased; urgency=medium
   * debian/update-wordlists.sh, petname/english.py:
     - delete any blank lines
 
- -- Dustin Kirkland <kirkland@ubuntu.com>  Wed, 28 Jan 2015 15:46:53 -0600
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Thu, 06 Aug 2015 15:03:30 -0500
 
 python-petname (1.7-0ubuntu1) vivid; urgency=medium
 
