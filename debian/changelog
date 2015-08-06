@@ -9,6 +9,10 @@ python-petname (1.8) unreleased; urgency=medium
       petname script on install
     - Fixed a few of the warnings pep8 et al were throwing.
 
+  [ Dustin Kirkland ]
+  * debian/update-wordlists.sh, petname/english.py:
+    - delete any blank lines
+
  -- Dustin Kirkland <kirkland@ubuntu.com>  Wed, 28 Jan 2015 15:46:53 -0600
 
 python-petname (1.7-0ubuntu1) vivid; urgency=medium

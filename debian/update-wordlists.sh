@@ -13,7 +13,7 @@ for f in adverbs adjectives names; do
 	sed -i -e "s/, $/]\n\n/" "$f".txt.list
 	sed -i "/^$f = .*$/d" ${PKG}/english.py
 done
-sed -i -e "/^adjectives = /d" -e "/^adverbs = /d" -e "/^names = /d" ${PKG}/english.py
+sed -i -e "/^adjectives = /d" -e "/^adverbs = /d" -e "/^names = /d" -e "/^$/d" ${PKG}/english.py
 cat *.txt.list >> ${PKG}/english.py
 rm -f *.txt.list
 cat /usr/share/doc/petname/README.md > README.md
