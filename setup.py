@@ -28,7 +28,7 @@ setup(
     name='petname',
     description='Generate human-readable, random object names',
     long_description=readme,
-    version='1.8',
+    version='1.9',
     author='Dustin Kirkland',
     author_email='dustin.kirkland@gmail.com',
     license="Apache2",
