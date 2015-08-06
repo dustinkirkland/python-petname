@@ -1,6 +1,13 @@
 python-petname (1.8) unreleased; urgency=medium
 
-  * UNRELEASED
+  [ Adam Isreal ]
+  * debian/update-wordlists.sh, Makefile, petname/english.py,
+    petname/__init__.py, petname/__main__.py, setup.py:
+    - Move adverbs/adjectives/names to separate (english.py) file
+      + Editing init.py is easier/quicker
+    - Added an entry_point section to setup.py, to auto-gen the
+      petname script on install
+    - Fixed a few of the warnings pep8 et al were throwing.
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Wed, 28 Jan 2015 15:46:53 -0600
 

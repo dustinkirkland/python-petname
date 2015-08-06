@@ -11,10 +11,9 @@ for f in adverbs adjectives names; do
 		printf '"%s", ' "$w" >> "$f".txt.list
 	done
 	sed -i -e "s/, $/]\n\n/" "$f".txt.list
-	sed -i "/^$f = .*$/d" ${PKG}/__init__.py
+	sed -i "/^$f = .*$/d" ${PKG}/english.py
 done
-grep -B 1000 "^import " ${PKG}/__init__.py > above
-grep -A 1000 "^def Adverb" ${PKG}/__init__.py > below
-cat above *.txt.list below > ${PKG}/__init__.py
-rm -f *.txt.list above below
+sed -i -e "/^adjectives = /d" -e "/^adverbs = /d" -e "/^names = /d" ${PKG}/english.py
+cat *.txt.list >> ${PKG}/english.py
+rm -f *.txt.list
 cat /usr/share/doc/petname/README.md > README.md
