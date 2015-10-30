@@ -1,3 +1,9 @@
+python-petname (1.11) unreleased; urgency=medium
+
+  * UNRELEASED
+
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Fri, 30 Oct 2015 10:45:34 -0500
+
 python-petname (1.10-0ubuntu1) xenial; urgency=medium
 
   * petname/english.py:
