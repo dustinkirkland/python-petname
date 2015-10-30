@@ -17,7 +17,7 @@
 
 
 import random
-from english import adverbs, adjectives, names
+from .english import adverbs, adjectives, names
 
 
 def Adverb():
