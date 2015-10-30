@@ -1,4 +1,4 @@
-python-petname (1.10) unreleased; urgency=medium
+python-petname (1.10-0ubuntu1) xenial; urgency=medium
 
   * petname/english.py:
     - prune a bunch of words that should be blacklisted
@@ -7,7 +7,7 @@ python-petname (1.10) unreleased; urgency=medium
   * petname/__init__.py:
     - fix build, import english from this module
 
- -- Dustin Kirkland <kirkland@ubuntu.com>  Thu, 06 Aug 2015 15:14:58 -0500
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Fri, 30 Oct 2015 10:45:32 -0500
 
 python-petname (1.9-0ubuntu1) wily; urgency=medium
 
