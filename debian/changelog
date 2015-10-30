@@ -2,6 +2,8 @@ python-petname (1.10) unreleased; urgency=medium
 
   * petname/english.py:
     - prune a bunch of words that should be blacklisted
+  * petname/__init__.pyc:
+    - remove binary file
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Thu, 06 Aug 2015 15:14:58 -0500
 
