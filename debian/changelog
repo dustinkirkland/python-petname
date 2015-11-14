@@ -1,6 +1,7 @@
 python-petname (1.11) unreleased; urgency=medium
 
-  * UNRELEASED
+  * setup.py (properties changed: -x to +x):
+    - make executable
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Fri, 30 Oct 2015 10:45:34 -0500
 
