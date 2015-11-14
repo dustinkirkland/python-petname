@@ -1,9 +1,9 @@
-python-petname (1.11) unreleased; urgency=medium
+python-petname (1.11-0ubuntu1) xenial; urgency=medium
 
   * setup.py (properties changed: -x to +x):
     - make executable
 
- -- Dustin Kirkland <kirkland@ubuntu.com>  Fri, 30 Oct 2015 10:45:34 -0500
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Sat, 14 Nov 2015 09:23:51 -0600
 
 python-petname (1.10-0ubuntu1) xenial; urgency=medium
 
