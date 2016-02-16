@@ -14,7 +14,7 @@
 # GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License
-# along with ssh-import-id.  If not, see <http://www.gnu.org/licenses/>.
+# along with python-petname.  If not, see <http://www.gnu.org/licenses/>.
 
 import os
 from setuptools import setup
