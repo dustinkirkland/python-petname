@@ -1,14 +1,15 @@
-.TH python-petname 1 "15 December 2014" python-petname "python-petname"
+.TH python-petname 1 "18 June 2016" python-petname "python-petname"
 .SH NAME
 python-petname \- utility to generate "pet names", consisting of a random combination of adverbs, an adjective, and a proper name
 
 .SH SYNOPSIS
-\fBpython-petname\fP [-w|--words INT] [-s|--separator STR]
+\fBpython-petname\fP [-w|--words INT] [-s|--separator STR] [-l|--letters INT]
 
 .SH OPTIONS
 
-    --words            number of words in the name, default is 2
-    --separator        string used to separate name words, default is '-'
+    -w|--words            number of words in the name, default is 2
+    -l|--letters          maximum number of letters in each word, default is 6
+    -s|--separator        string used to separate name words, default is '-'
 
 .SH DESCRIPTION
 
@@ -25,22 +26,22 @@ As such, PetName tries to follow the tenets of Zooko's triangle.  Names are:
 .SH EXAMPLES
 
     $ python-petname
-    wiggly-Anna
+    wiggly-anna
 
     $ python-petname --words 1
-    Marco
+    marco
 
     $ python-petname --words 3
-    quickly-scornful-Johnathan
+    evenly-silly-john
 
-    $ python-petname --words 4
+    $ python-petname --words 4 --letters 10
     dolorously-leisurely-wee-Susan
 
-    $ python-petname --separator ":"
-    hospitable:Isla
+    $ python-petname --separator ":" --letters 7
+    hopeful:isla
 
     $ python-petname --separator "" --words 3
-    adeptlystaticNicole
+    adeptlystaticnicole
 
 .SH SEE ALSO
 \fIpetname\fP(1)

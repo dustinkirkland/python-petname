@@ -2,6 +2,12 @@ python-petname (1.13) unreleased; urgency=medium
 
   * setup.py
     - fix typo in setup.py
+  * petname/__init__.py, petname/__main__.py, usr/bin/python3-petname,
+    usr/bin/python-petname, usr/share/man/man1/python3-petname.1,
+    usr/share/man/man1/python-petname.1:
+    - add support for a -l|--letters parameter, default to 6
+    - creates shorter, more readable names
+
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Wed, 02 Dec 2015 17:19:14 -0600
 

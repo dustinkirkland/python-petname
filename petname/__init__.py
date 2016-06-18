@@ -20,23 +20,35 @@ import random
 from .english import adverbs, adjectives, names
 
 
-def Adverb():
-    return random.choice(adverbs)
+def Adverb(letters=6):
+	while true:
+		w = random.choice(adverbs)
+		if len(w) <= letters:
+			return w
 
-def Adjective():
-    return random.choice(adjectives)
 
-def Name():
-    return random.choice(names)
+def Adjective(letters=6):
+	while true:
+		w = random.choice(adjectives)
+		if len(w) <= letters:
+			return w
 
-def Generate(words, separator):
-    if words == 1:
-        return Name()
-    elif words == 2:
-        return Adjective() + separator + Name()
-    petname = []
-    for i in range(0, words - 2):
-        petname.append(Adverb())
-    petname.append(Adjective())
-    petname.append(Name())
-    return separator.join(petname)
+
+def Name(letters=6):
+	while true:
+		w = random.choice(names)
+		if len(w) <= letters:
+			return w
+
+
+def Generate(words, separator, letters=6):
+	if words == 1:
+		return Name(letters)
+	elif words == 2:
+		return Adjective(letters) + separator + Name(letters)
+	petname = []
+	for i in range(0, words - 2):
+		petname.append(Adverb(letters))
+		petname.append(Adjective(letters))
+		petname.append(Name(letters))
+	return separator.join(petname)
