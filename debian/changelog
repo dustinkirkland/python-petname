@@ -7,6 +7,8 @@ python-petname (1.13) unreleased; urgency=medium
     usr/share/man/man1/python-petname.1:
     - add support for a -l|--letters parameter, default to 6
     - creates shorter, more readable names
+  * petname/english.py, README.md:
+    - remove some nonsense words
 
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Wed, 02 Dec 2015 17:19:14 -0600
