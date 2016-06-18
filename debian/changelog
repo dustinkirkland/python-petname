@@ -10,6 +10,8 @@ python-petname (1.13) unreleased; urgency=medium
   * petname/english.py, README.md:
     - remove some nonsense words
   * remove binary pyc files
+  * debian/rules, petname/__init__.py, usr/bin/python-petname:
+    - fix build, protect from infinite loop
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Wed, 02 Dec 2015 17:19:14 -0600
 

@@ -26,4 +26,4 @@ parser.add_argument('-l', '--letters', help='Maximum letters per word, default=6
 parser.add_argument('-s', '--separator', help='Separator between words, default="-"', default="-")
 parser.options = parser.parse_args()
 
-sys.stdout.write(petname.Generate(int(parser.options.words), parser.options.separator) + "\n")
+sys.stdout.write(petname.Generate(int(parser.options.words), parser.options.separator, int(parser.options.letters)) + "\n")

@@ -21,27 +21,29 @@ from .english import adverbs, adjectives, names
 
 
 def Adverb(letters=6):
-	while true:
+	while 1:
 		w = random.choice(adverbs)
 		if len(w) <= letters:
 			return w
 
 
 def Adjective(letters=6):
-	while true:
+	while 1:
 		w = random.choice(adjectives)
 		if len(w) <= letters:
 			return w
 
 
 def Name(letters=6):
-	while true:
+	while 1:
 		w = random.choice(names)
 		if len(w) <= letters:
 			return w
 
 
 def Generate(words, separator, letters=6):
+	if letters < 3:
+		letters = 3
 	if words == 1:
 		return Name(letters)
 	elif words == 2:
