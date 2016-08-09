@@ -1,4 +1,4 @@
-python-petname (2.0) unreleased; urgency=medium
+python-petname (2.0-0ubuntu1) yakkety; urgency=medium
 
   * setup.py
     - fix typo in setup.py
@@ -16,7 +16,7 @@ python-petname (2.0) unreleased; urgency=medium
     - bump to 2.0, using the new petname 2.0 wordlists, which are smaller,
       simpler, and use animal names instead of people names
 
- -- Dustin Kirkland <kirkland@ubuntu.com>  Wed, 02 Dec 2015 17:19:14 -0600
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 09 Aug 2016 14:24:11 -0500
 
 python-petname (1.12-0ubuntu1) xenial; urgency=medium
 
