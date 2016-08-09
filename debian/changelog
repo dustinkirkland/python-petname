@@ -1,4 +1,4 @@
-python-petname (1.13) unreleased; urgency=medium
+python-petname (2.0) unreleased; urgency=medium
 
   * setup.py
     - fix typo in setup.py
@@ -12,6 +12,9 @@ python-petname (1.13) unreleased; urgency=medium
   * remove binary pyc files
   * debian/rules, petname/__init__.py, usr/bin/python-petname:
     - fix build, protect from infinite loop
+  * petname/english.py, README.md, setup.py:
+    - bump to 2.0, using the new petname 2.0 wordlists, which are smaller,
+      simpler, and use animal names instead of people names
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Wed, 02 Dec 2015 17:19:14 -0600
 
