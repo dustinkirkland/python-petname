@@ -17,6 +17,7 @@
 # along with python-petname.  If not, see <http://www.gnu.org/licenses/>.
 
 import os
+
 from setuptools import setup
 
 try:
