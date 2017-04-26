@@ -47,6 +47,12 @@ class TestGenerate(unittest.TestCase):
 		name = petname.generate(words, sep)
 		self.assertEqual(len(name.split(sep)), words)
 
+	def test_words(self):
+		for words in range(1, 10):
+			sep = '-'
+			name = petname.generate(words, sep)
+			self.assertEqual(len(name.split(sep)), words)
+
 	def test_alias(self):
 		self.assertIs(petname.generate, petname.Generate)
 
