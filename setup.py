@@ -20,25 +20,25 @@ import os
 from setuptools import setup
 
 try:
-    readme = open(os.path.join(os.path.dirname(__file__), "README.md")).read()
+	readme = open(os.path.join(os.path.dirname(__file__), "README.md")).read()
 except:
-    readme = "See: http://pypi.python.org/pypi?name=petname&:action=display_pkginfo"
+	readme = "See: http://pypi.python.org/pypi?name=petname&:action=display_pkginfo"
 
 setup(
-    name='petname',
-    description='Generate human-readable, random object names',
-    long_description=readme,
-    version='2.1',
-    author='Dustin Kirkland',
-    author_email='dustin.kirkland@gmail.com',
-    license="Apache2",
-    keywords="random name uuid",
-    url='https://launchpad.net/petname',
-    platforms=['any'],
-    packages=['petname'],
-    entry_points={
-        'console_scripts': [
-            'petname = petname.__main__:main',
-        ]
-    },
+	name='petname',
+	description='Generate human-readable, random object names',
+	long_description=readme,
+	version='2.1',
+	author='Dustin Kirkland',
+	author_email='dustin.kirkland@gmail.com',
+	license="Apache2",
+	keywords="random name uuid",
+	url='https://launchpad.net/petname',
+	platforms=['any'],
+	packages=['petname'],
+	entry_points={
+		'console_scripts': [
+			'petname = petname.__main__:main',
+		]
+	},
 )

@@ -21,13 +21,13 @@ import petname
 import sys
 
 def main():
-    parser = argparse.ArgumentParser(description='Generate human readable random names')
-    parser.add_argument('-w', '--words', help='Number of words in name, default=2', default=2)
-    parser.add_argument('-l', '--letters', help='Maximum number of letters per word, default=6', default=6)
-    parser.add_argument('-s', '--separator', help='Separator between words, default="-"', default="-")
-    parser.options = parser.parse_args()
+	parser = argparse.ArgumentParser(description='Generate human readable random names')
+	parser.add_argument('-w', '--words', help='Number of words in name, default=2', default=2)
+	parser.add_argument('-l', '--letters', help='Maximum number of letters per word, default=6', default=6)
+	parser.add_argument('-s', '--separator', help='Separator between words, default="-"', default="-")
+	parser.options = parser.parse_args()
 
-    sys.stdout.write(petname.Generate(int(parser.options.words), parser.options.separator, int(parser.options.letters)) + "\n")
+	sys.stdout.write(petname.Generate(int(parser.options.words), parser.options.separator, int(parser.options.letters)) + "\n")
 
 if __name__ == "__main__":
-    main()
+	main()
