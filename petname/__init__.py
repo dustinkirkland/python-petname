@@ -21,39 +21,39 @@ from .english import adverbs, adjectives, names
 
 
 def adverb(letters=6):
-    while 1:
-        w = random.choice(adverbs)
-        if len(w) <= letters:
-            return w
+	while 1:
+		w = random.choice(adverbs)
+		if len(w) <= letters:
+			return w
 
 
 def adjective(letters=6):
-    while 1:
-        w = random.choice(adjectives)
-        if len(w) <= letters:
-            return w
+	while 1:
+		w = random.choice(adjectives)
+		if len(w) <= letters:
+			return w
 
 
 def name(letters=6):
-    while 1:
-        w = random.choice(names)
-        if len(w) <= letters:
-            return w
+	while 1:
+		w = random.choice(names)
+		if len(w) <= letters:
+			return w
 
 
 def generate(words, separator, letters=6):
-    if letters < 3:
-        letters = 3
-    if words == 1:
-        return name(letters)
-    elif words == 2:
-        return adjective(letters) + separator + name(letters)
-    petname = []
-    for i in range(0, words - 2):
-        petname.append(adverb(letters))
-        petname.append(adjective(letters))
-        petname.append(name(letters))
-    return separator.join(petname)
+	if letters < 3:
+		letters = 3
+	if words == 1:
+		return name(letters)
+	elif words == 2:
+		return adjective(letters) + separator + name(letters)
+	petname = []
+	for i in range(0, words - 2):
+		petname.append(adverb(letters))
+		petname.append(adjective(letters))
+		petname.append(name(letters))
+	return separator.join(petname)
 
 
 # aliases for backwards compatiblity
