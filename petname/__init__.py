@@ -19,38 +19,50 @@
 import random
 from .english import adverbs, adjectives, names
 
+try:
+	random = random.SystemRandom()
+except NotImplementedError:
+	pass # less secure
 
-def Adverb(letters=6):
+
+def adverb(letters=6):
 	while 1:
 		w = random.choice(adverbs)
 		if len(w) <= letters:
 			return w
 
 
-def Adjective(letters=6):
+def adjective(letters=6):
 	while 1:
 		w = random.choice(adjectives)
 		if len(w) <= letters:
 			return w
 
 
-def Name(letters=6):
+def name(letters=6):
 	while 1:
 		w = random.choice(names)
 		if len(w) <= letters:
 			return w
 
 
-def Generate(words, separator, letters=6):
+def generate(words, separator, letters=6):
 	if letters < 3:
 		letters = 3
 	if words == 1:
-		return Name(letters)
+		return name(letters)
 	elif words == 2:
-		return Adjective(letters) + separator + Name(letters)
+		return adjective(letters) + separator + name(letters)
 	petname = []
 	for i in range(0, words - 2):
-		petname.append(Adverb(letters))
-		petname.append(Adjective(letters))
-		petname.append(Name(letters))
+		petname.append(adverb(letters))
+	petname.append(adjective(letters))
+	petname.append(name(letters))
 	return separator.join(petname)
+
+
+# aliases for backwards compatiblity
+Adverb = adverb
+Adjective = adjective
+Name = name
+Generate = generate
