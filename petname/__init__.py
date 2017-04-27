@@ -51,8 +51,8 @@ def generate(words, separator, letters=6):
 	petname = []
 	for i in range(0, words - 2):
 		petname.append(adverb(letters))
-		petname.append(adjective(letters))
-		petname.append(name(letters))
+	petname.append(adjective(letters))
+	petname.append(name(letters))
 	return separator.join(petname)
 
 
