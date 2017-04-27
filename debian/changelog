@@ -9,6 +9,10 @@ python-petname (2.1) unreleased; urgency=medium
     - fix indentation to use adverb(s)-adjective-name when -w > 3
     - try to use the OS's random
 
+  [ Dustin Kirkland ]
+  * petname/__init__.py:
+    - add generate() defaults of 2 and "-"
+
  -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 09 Aug 2016 14:24:14 -0500
 
 python-petname (2.0-0ubuntu1) yakkety; urgency=medium

@@ -46,7 +46,7 @@ def name(letters=6):
 			return w
 
 
-def generate(words, separator, letters=6):
+def generate(words=2, separator="-", letters=6):
 	if letters < 3:
 		letters = 3
 	if words == 1:
