@@ -20,6 +20,11 @@ import random
 from .english import adverbs, adjectives, names
 
 
+try:
+	random = random.SystemRandom()
+except NotImplementedError:
+	pass # less secure
+
 def adverb(letters=6):
 	while 1:
 		w = random.choice(adverbs)

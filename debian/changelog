@@ -7,6 +7,7 @@ python-petname (2.1) unreleased; urgency=medium
     - Add tests, consistently use tabs vs spaces, PEP-8 naming
   * petname/__init__.py:
     - fix indentation to use adverb(s)-adjective-name when -w > 3
+    - try to use the OS's random
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 09 Aug 2016 14:24:14 -0500
 
