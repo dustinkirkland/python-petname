@@ -1,6 +1,10 @@
 python-petname (2.1) unreleased; urgency=medium
 
-  * UNRELEASED
+  [ Nick Timkovich ]
+  * Makefile, petname/__init__.py, petname/__main__.py, setup.py,
+    test.py:
+    - https://github.com/dustinkirkland/python-petname/pull/5
+    - Add tests, consistently use tabs vs spaces, PEP-8 naming
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 09 Aug 2016 14:24:14 -0500
 
