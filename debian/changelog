@@ -1,4 +1,4 @@
-python-petname (2.1) unreleased; urgency=medium
+python-petname (2.1-0ubuntu1) artful; urgency=medium
 
   [ Nick Timkovich ]
   * Makefile, petname/__init__.py, petname/__main__.py, setup.py,
@@ -13,7 +13,7 @@ python-petname (2.1) unreleased; urgency=medium
   * petname/__init__.py:
     - add generate() defaults of 2 and "-"
 
- -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 09 Aug 2016 14:24:14 -0500
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Thu, 27 Apr 2017 17:23:55 -0500
 
 python-petname (2.0-0ubuntu1) yakkety; urgency=medium
 
