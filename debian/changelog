@@ -1,3 +1,9 @@
+python-petname (2.3) unreleased; urgency=medium
+
+  * UNRELEASED
+
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Fri, 28 Apr 2017 14:15:35 -0500
+
 python-petname (2.2-0ubuntu1) artful; urgency=medium
 
   [ Nick Timkovich and Dustin Kirkland ]
