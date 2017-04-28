@@ -1,6 +1,8 @@
 python-petname (2.2) unreleased; urgency=medium
 
-  * UNRELEASED
+  [ Nick Timkovich and Dustin Kirkland ]
+  * usr/bin/python3-petname, usr/bin/python-petname:
+    - simplify our main function
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Thu, 27 Apr 2017 17:24:00 -0500
 
