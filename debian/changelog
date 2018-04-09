@@ -1,9 +1,10 @@
 python-petname (2.3) unreleased; urgency=medium
 
-  [ Pandentia ]
+  [ Pandentia and Naereen ]
   * README.md:
     - Fix the readme for new GitHub markdown parsing
     - https://github.com/dustinkirkland/python-petname/pull/9
+    - https://github.com/dustinkirkland/python-petname/pull/10
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Fri, 28 Apr 2017 14:15:35 -0500
 
