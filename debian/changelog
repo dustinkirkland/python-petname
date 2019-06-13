@@ -1,3 +1,9 @@
+python-petname (2.4) unreleased; urgency=medium
+
+  * UNRELEASED
+
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Thu, 13 Jun 2019 15:11:23 -0500
+
 python-petname (2.3-0ubuntu1) eoan; urgency=medium
 
   [ Pandentia and Naereen ]
