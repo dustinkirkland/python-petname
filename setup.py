@@ -30,7 +30,7 @@ setup(
 	description='Generate human-readable, random object names',
 	long_description=readme,
 	long_description_content_type="Markdown",
-	version='2.4',
+	version='2.5',
 	author='Dustin Kirkland',
 	author_email='dustin.kirkland@gmail.com',
 	license="Apache2",
