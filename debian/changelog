@@ -1,4 +1,4 @@
-python-petname (2.3) unreleased; urgency=medium
+python-petname (2.3-0ubuntu1) eoan; urgency=medium
 
   [ Pandentia and Naereen ]
   * README.md:
@@ -12,7 +12,7 @@ python-petname (2.3) unreleased; urgency=medium
     - refer to https://tools.ietf.org/html/rfc1178
     - update golang and python examples
 
- -- Dustin Kirkland <kirkland@ubuntu.com>  Wed, 12 Jun 2019 19:55:31 -0500
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Thu, 13 Jun 2019 15:11:19 -0500
 
 python-petname (2.2-0ubuntu1) artful; urgency=medium
 
