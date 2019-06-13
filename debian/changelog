@@ -6,7 +6,13 @@ python-petname (2.3) unreleased; urgency=medium
     - https://github.com/dustinkirkland/python-petname/pull/9
     - https://github.com/dustinkirkland/python-petname/pull/10
 
- -- Dustin Kirkland <kirkland@ubuntu.com>  Fri, 28 Apr 2017 14:15:35 -0500
+  [ Dustin Kirkland ]
+  * README.md:
+    - update to the newer python-petname readme
+    - refer to https://tools.ietf.org/html/rfc1178
+    - update golang and python examples
+
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Wed, 12 Jun 2019 19:55:31 -0500
 
 python-petname (2.2-0ubuntu1) artful; urgency=medium
 
