@@ -1,8 +1,10 @@
 python-petname (2.7) unreleased; urgency=medium
 
-  * UNRELEASED
+  * setup.py:
+    - screw it, pypi just doesn't want my markdown long description
+    - commenting this out makes uploading pypi work again
 
- -- Dustin Kirkland <kirkland@ubuntu.com>  Thu, 13 Jun 2019 15:28:26 -0500
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Thu, 13 Jun 2019 15:35:58 -0500
 
 python-petname (2.6-0ubuntu1) eoan; urgency=medium
 
