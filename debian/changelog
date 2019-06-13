@@ -1,10 +1,10 @@
-python-petname (2.4) unreleased; urgency=medium
+python-petname (2.4-0ubuntu1) eoan; urgency=medium
 
   * setup.py:
     - set the reStructuredText type to Markdown, so that we can
       upload to pypi
 
- -- Dustin Kirkland <kirkland@ubuntu.com>  Thu, 13 Jun 2019 15:19:05 -0500
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Thu, 13 Jun 2019 15:20:18 -0500
 
 python-petname (2.3-0ubuntu1) eoan; urgency=medium
 
