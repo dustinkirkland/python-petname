@@ -32,7 +32,7 @@ setup(
 	author_email='dustin.kirkland@gmail.com',
 	license="Apache2",
 	keywords="random name uuid",
-	url='https://launchpad.net/petname',
+	url='https://launchpad.net/python-petname',
 	platforms=['any'],
 	packages=['petname'],
 	entry_points={
