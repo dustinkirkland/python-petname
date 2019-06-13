@@ -1,8 +1,9 @@
 python-petname (2.6) unreleased; urgency=medium
 
-  * UNRELEASED
+  * setup.py:
+    - fix loading of long description text
 
- -- Dustin Kirkland <kirkland@ubuntu.com>  Thu, 13 Jun 2019 15:22:29 -0500
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Thu, 13 Jun 2019 15:26:17 -0500
 
 python-petname (2.5-0ubuntu1) eoan; urgency=medium
 

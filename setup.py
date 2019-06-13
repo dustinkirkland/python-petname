@@ -17,18 +17,15 @@
 # You should have received a copy of the GNU General Public License
 # along with python-petname.  If not, see <http://www.gnu.org/licenses/>.
 
-import os
 from setuptools import setup
 
-try:
-	readme = open(os.path.join(os.path.dirname(__file__), "README.md")).read()
-except:
-	readme = "See: http://pypi.python.org/pypi?name=petname&:action=display_pkginfo"
+with open("README.md", "r") as fh:
+	long_description = fh.read()
 
 setup(
 	name='petname',
 	description='Generate human-readable, random object names',
-	long_description=readme,
+	long_description=long_description,
 	long_description_content_type="text/markdown",
 	version='2.6',
 	author='Dustin Kirkland',
