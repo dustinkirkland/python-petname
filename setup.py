@@ -3,6 +3,7 @@
 # petname - library for generating human-readable, random names
 #           for objects (e.g. hostnames, containers, blobs)
 # Copyright (c) 2013 Casey Marshall <casey.marshall@gmail.com>
+# Copyright (c) 2019 Dustin Kirkland <dustin.kirkland@gmail.com>
 #
 # ssh-import-id is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -28,6 +29,7 @@ setup(
 	name='petname',
 	description='Generate human-readable, random object names',
 	long_description=readme,
+	long_description_content_type="Markdown",
 	version='2.4',
 	author='Dustin Kirkland',
 	author_email='dustin.kirkland@gmail.com',
