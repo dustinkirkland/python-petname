@@ -19,8 +19,11 @@
 
 from setuptools import setup
 
-with open("README.md", "r") as fh:
-	long_description = fh.read()
+try:
+	with open("README.md", "r", encoding='utf-8') as fh:
+		long_description = fh.read()
+except UnicodeDecodeError:
+	long_description = str()
 
 setup(
 	name='petname',
