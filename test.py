@@ -2,9 +2,14 @@ import unittest
 
 import petname
 import petname.english
+from random import Random
 
 
 class TestAdjective(unittest.TestCase):
+	def test_seed(self):
+		self.assertEqual(petname.adjective(custom_random=Random(123)),
+						petname.adjective(custom_random=Random(123)))
+
 	def test_works(self):
 		self.assertIn(petname.adjective(), petname.english.adjectives)
 
@@ -17,6 +22,10 @@ class TestAdjective(unittest.TestCase):
 
 
 class TestAdverb(unittest.TestCase):
+	def test_seed(self):
+		self.assertEqual(petname.adverb(custom_random=Random(123)),
+						petname.adverb(custom_random=Random(123)))
+
 	def test_works(self):
 		self.assertIn(petname.adverb(), petname.english.adverbs)
 
@@ -29,6 +38,10 @@ class TestAdverb(unittest.TestCase):
 
 
 class TestName(unittest.TestCase):
+	def test_seed(self):
+		self.assertEqual(petname.name(custom_random=Random(123)),
+						petname.name(custom_random=Random(123)))
+
 	def test_works(self):
 		self.assertIn(petname.name(), petname.english.names)
 
@@ -41,6 +54,10 @@ class TestName(unittest.TestCase):
 
 
 class TestGenerate(unittest.TestCase):
+	def test_seed(self):
+		self.assertEqual(petname.generate(custom_random=Random(123)),
+						petname.generate(custom_random=Random(123)))
+
 	def test_works(self):
 		words = 3
 		sep = '-'

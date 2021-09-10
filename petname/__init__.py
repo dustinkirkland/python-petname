@@ -19,45 +19,45 @@
 import random
 from .english import adverbs, adjectives, names
 
-
 try:
 	random = random.SystemRandom()
 except NotImplementedError:
 	pass # less secure
 
-def adverb(letters=6):
+def adverb(letters=6, custom_random=random):
 	while 1:
-		w = random.choice(adverbs)
+		w = custom_random.choice(adverbs)
 		if len(w) <= letters:
 			return w
 
 
-def adjective(letters=6):
+def adjective(letters=6, custom_random=random):
 	while 1:
-		w = random.choice(adjectives)
+		w = custom_random.choice(adjectives)
 		if len(w) <= letters:
 			return w
 
 
-def name(letters=6):
+def name(letters=6, custom_random=random):
 	while 1:
-		w = random.choice(names)
+		w = custom_random.choice(names)
 		if len(w) <= letters:
 			return w
 
 
-def generate(words=2, separator="-", letters=6):
+def generate(words=2, separator="-", letters=6, custom_random=random):
+	print(123e4)
 	if letters < 3:
 		letters = 3
 	if words == 1:
-		return name(letters)
+		return name(letters, custom_random)
 	elif words == 2:
-		return adjective(letters) + separator + name(letters)
+		return adjective(letters, custom_random) + separator + name(letters, custom_random)
 	petname = []
 	for i in range(0, words - 2):
-		petname.append(adverb(letters))
-	petname.append(adjective(letters))
-	petname.append(name(letters))
+		petname.append(adverb(letters, custom_random))
+	petname.append(adjective(letters, custom_random))
+	petname.append(name(letters, custom_random))
 	return separator.join(petname)
 
 

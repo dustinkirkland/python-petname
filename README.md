@@ -8,7 +8,7 @@
 
 - Complete version:
 ```
-usage: petname [-w|--words INT] [-l|--letters INT] [-s|--separator STR] [-d|--dir STR] [-c|--complexity INT] [-u|--ubuntu]
+usage: petname [-w|--words INT] [-l|--letters INT] [-s|--separator STR] [-d|--dir STR] [-c|--complexity INT] [-u|--ubuntu] [-S|--seed]
 ```
 
 - Python version:
@@ -23,6 +23,7 @@ usage: petname [-h] [-w WORDS] [-l LETTERS] [-s SEPARATOR]
 - `-d|--dir` directory containing `adverbs.txt`, `adjectives.txt`, `names.txt`, default is `/usr/share/petname/`,
 - `-c|--complexity` [0, 1, 2]; 0 = easy words, 1 = standard words, 2 = complex words, default=1,
 - `-u|--ubuntu` generate ubuntu-style names, alliteration of first character of each word.
+- `-S|--seed` generate using a seed
 
 ## Description
 
