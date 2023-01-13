@@ -23,11 +23,11 @@ with open("README.md", "r", encoding="utf-8") as fh:
 	long_description = fh.read()
 
 setup(
-	name='petname',
+	name='petname-fork',
 	description='Generate human-readable, random object names',
 	#long_description=long_description,
 	#long_description_content_type="text/markdown",
-	version='2.7',
+	version='2.7p1',
 	author='Dustin Kirkland',
 	author_email='dustin.kirkland@gmail.com',
 	license="Apache2",
