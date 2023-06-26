@@ -9,11 +9,15 @@ python-petname (2.7) unreleased; urgency=medium
   * debian/control, debian/copyright, setup.py:
     - permanently relocating from Launchpad/bzr to Github/git
 
+  [ Ethan Ho]
+  * setup.py:
+    - Fix UnicodeDecodeError on install 
+
   [ Anthony Sottile ]
   * debian/compat, petname/__init__.py, petname/__main__.py, setup.py:
     - add mypy typing
 
- -- Dustin Kirkland <kirkland@ubuntu.com>  Mon, 26 Jun 2023 17:26:36 -0500
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Mon, 26 Jun 2023 17:44:26 -0500
 
 python-petname (2.6-0ubuntu1) eoan; urgency=medium
 
