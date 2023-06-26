@@ -35,6 +35,7 @@ setup(
     url='https://github.com/dustinkirkland/python-petname',
 	platforms=['any'],
 	packages=['petname'],
+	package_data={'petname': ['py.typed']},
 	entry_points={
 		'console_scripts': [
 			'petname = petname.__main__:main',

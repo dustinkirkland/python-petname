@@ -25,28 +25,28 @@ try:
 except NotImplementedError:
 	pass # less secure
 
-def adverb(letters=6):
+def adverb(letters: int = 6) -> str:
 	while 1:
 		w = random.choice(adverbs)
 		if len(w) <= letters:
 			return w
 
 
-def adjective(letters=6):
+def adjective(letters: int = 6) -> str:
 	while 1:
 		w = random.choice(adjectives)
 		if len(w) <= letters:
 			return w
 
 
-def name(letters=6):
+def name(letters: int = 6) -> str:
 	while 1:
 		w = random.choice(names)
 		if len(w) <= letters:
 			return w
 
 
-def generate(words=2, separator="-", letters=6):
+def generate(words: int = 2, separator: str = "-", letters: int = 6) -> str:
 	if letters < 3:
 		letters = 3
 	if words == 1:

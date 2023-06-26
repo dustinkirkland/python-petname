@@ -20,7 +20,7 @@ import argparse
 import petname
 import sys
 
-def main():
+def main() -> None:
 	parser = argparse.ArgumentParser(description='Generate human readable random names')
 	parser.add_argument('-w', '--words', help='Number of words in name, default=2', default=2)
 	parser.add_argument('-l', '--letters', help='Maximum number of letters per word, default=6', default=6)
