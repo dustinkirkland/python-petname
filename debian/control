@@ -9,9 +9,8 @@ Build-Depends: debhelper (>= 8),
  python3-all,
  python3-setuptools,
 Standards-Version: 3.9.6
-Homepage: http://launchpad.net/python-petname
-Vcs-Browser: http://bazaar.launchpad.net/~python-petname/python-petname/trunk/files
-Vcs-Bzr: https://code.launchpad.net/python-petname/python-petname/trunk
+Homepage: https://github.com/dustinkirkland/python-petname/
+Vcs-Browser: https://github.com/dustinkirkland/python-petname
 
 Package: python-petname
 Architecture: all

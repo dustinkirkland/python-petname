@@ -5,8 +5,10 @@ python-petname (2.7) unreleased; urgency=medium
     - commenting this out makes uploading pypi work again
   * petname/english.py:
     - updating wordlists to match upstream petname
+  * debian/control, debian/copyright, setup.py:
+    - permanently relocating from Launchpad/bzr to Github/git
 
- -- Dustin Kirkland <kirkland@ubuntu.com>  Mon, 26 Jun 2023 16:38:55 -0500
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Mon, 26 Jun 2023 16:41:18 -0500
 
 python-petname (2.6-0ubuntu1) eoan; urgency=medium
 
