@@ -8,6 +8,10 @@ python-petname (2.7) unreleased; urgency=medium
     - updating wordlists to match upstream petname
   * debian/control, debian/copyright, setup.py:
     - permanently relocating from Launchpad/bzr to Github/git
+  * debian/update-wordlists.sh:
+    - use github as authoritative in the update maintainer script
+  * petname/english.py:
+    - remove a couple of animals
 
   [ Ethan Ho]
   * setup.py:
@@ -17,7 +21,7 @@ python-petname (2.7) unreleased; urgency=medium
   * debian/compat, petname/__init__.py, petname/__main__.py, setup.py:
     - add mypy typing
 
- -- Dustin Kirkland <kirkland@ubuntu.com>  Mon, 26 Jun 2023 17:44:26 -0500
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Mon, 22 Apr 2024 10:45:19 -0500
 
 python-petname (2.6-0ubuntu1) eoan; urgency=medium
 
