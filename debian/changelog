@@ -1,4 +1,10 @@
-python-petname (2.7) unreleased; urgency=medium
+python-petname (2.8) unreleased; urgency=medium
+
+  * UNRELEASED
+
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Sun, 28 Apr 2024 14:46:05 -0500
+
+python-petname (2.7-0ubuntu1) experimental; urgency=medium
 
   [ Dustin Kirkland ]
   * setup.py:
@@ -21,7 +27,7 @@ python-petname (2.7) unreleased; urgency=medium
   * debian/compat, petname/__init__.py, petname/__main__.py, setup.py:
     - add mypy typing
 
- -- Dustin Kirkland <kirkland@ubuntu.com>  Mon, 22 Apr 2024 10:45:19 -0500
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Sun, 28 Apr 2024 14:45:56 -0500
 
 python-petname (2.6-0ubuntu1) eoan; urgency=medium
 

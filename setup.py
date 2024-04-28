@@ -31,7 +31,7 @@ setup(
 	description='Generate human-readable, random object names',
 	#long_description=long_description,
 	#long_description_content_type="text/markdown",
-	version='2.7',
+	version='2.8',
 	author='Dustin Kirkland',
 	author_email='dustin.kirkland@gmail.com',
 	license="Apache2",
