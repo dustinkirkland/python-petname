@@ -1,4 +1,4 @@
-python-petname (2.8) unreleased; urgency=medium
+python-petname (2.8) stable; urgency=medium
 
   * petname/english.py:
     - removed peacock, cockatoo, and woodcock from names list
