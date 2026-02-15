@@ -1,8 +1,14 @@
-python-petname (2.8) unreleased; urgency=medium
+python-petname (2.8) stable; urgency=medium
 
-  * UNRELEASED
+  * petname/english.py:
+    - removed peacock, cockatoo, and woodcock from names list
+      to maintain consistency with petname 2.10
+    - avoids potentially awkward professional combinations
+  * Closed issues:
+    - #11: non-ASCII characters in README (fixed in 2.7)
+    - #15: UnicodeDecodeError on Windows install (fixed in 2.7)
 
- -- Dustin Kirkland <kirkland@ubuntu.com>  Sun, 28 Apr 2024 14:46:05 -0500
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Fri, 14 Feb 2026 21:15:00 -0600
 
 python-petname (2.7-0ubuntu1) experimental; urgency=medium
 
