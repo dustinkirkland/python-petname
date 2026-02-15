@@ -1,3 +1,23 @@
+python-petname (2.9) stable; urgency=high
+
+  * petname/__init__.py:
+    - CRITICAL FIX: added minimum length validation to prevent infinite loops
+      in adverb(), adjective(), and name() functions
+    - prevents DoS when letters parameter is too small
+  * petname/__main__.py:
+    - added proper error handling for invalid CLI arguments
+    - added separator length validation (max 100 chars) to prevent memory DoS
+    - improved error messages for better user experience
+  * setup.py:
+    - fixed license header (was incorrectly GPL, now correctly Apache 2.0)
+    - removed incorrect ssh-import-id references (copy-paste error)
+    - uncommented long_description for better PyPI documentation
+  * Security fixes:
+    - CVE candidate: infinite loop DoS vulnerability patched
+    - improved input validation across CLI interface
+
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Fri, 14 Feb 2026 22:00:00 -0600
+
 python-petname (2.8) stable; urgency=medium
 
   * petname/english.py:

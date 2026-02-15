@@ -26,6 +26,9 @@ except NotImplementedError:
 	pass # less secure
 
 def adverb(letters: int = 6) -> str:
+	# Shortest adverb is 4 letters - prevent infinite loop
+	if letters < 4:
+		letters = 4
 	while 1:
 		w = random.choice(adverbs)
 		if len(w) <= letters:
@@ -33,6 +36,9 @@ def adverb(letters: int = 6) -> str:
 
 
 def adjective(letters: int = 6) -> str:
+	# Shortest adjective is 2 letters - prevent infinite loop
+	if letters < 2:
+		letters = 2
 	while 1:
 		w = random.choice(adjectives)
 		if len(w) <= letters:
@@ -40,6 +46,9 @@ def adjective(letters: int = 6) -> str:
 
 
 def name(letters: int = 6) -> str:
+	# Shortest name is 2 letters - prevent infinite loop
+	if letters < 2:
+		letters = 2
 	while 1:
 		w = random.choice(names)
 		if len(w) <= letters:

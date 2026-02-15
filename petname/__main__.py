@@ -27,7 +27,20 @@ def main() -> None:
 	parser.add_argument('-s', '--separator', help='Separator between words, default="-"', default="-")
 	parser.options = parser.parse_args()
 
-	sys.stdout.write(petname.Generate(int(parser.options.words), parser.options.separator, int(parser.options.letters)) + "\n")
+	# Validate and convert arguments
+	try:
+		words = int(parser.options.words)
+		letters = int(parser.options.letters)
+	except ValueError:
+		sys.stderr.write("Error: --words and --letters must be valid integers\n")
+		sys.exit(1)
+
+	# Validate separator length (prevent memory DoS)
+	if len(parser.options.separator) > 100:
+		sys.stderr.write("Error: --separator must be 100 characters or less\n")
+		sys.exit(1)
+
+	sys.stdout.write(petname.Generate(words, parser.options.separator, letters) + "\n")
 
 if __name__ == "__main__":
 	main()
