@@ -1,3 +1,9 @@
+python-petname (2.11) UNRELEASED; urgency=medium
+
+  * Open development for 2.11.
+
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 29 Sep 2026 05:52:19 -0500
+
 python-petname (2.10) stable; urgency=medium
 
   * new release 
