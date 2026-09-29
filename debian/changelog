@@ -1,3 +1,9 @@
+python-petname (2.10) stable; urgency=medium
+
+  * new release 
+
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 29 Sep 2026 05:51:43 -0500
+
 python-petname (2.9) stable; urgency=high
 
   * petname/__init__.py:
