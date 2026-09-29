@@ -1,8 +1,10 @@
-python-petname (2.11) UNRELEASED; urgency=medium
+python-petname (2.11) stable; urgency=medium
 
   * Open development for 2.11.
+  * Remove tracked __pycache__ files
+  * Add .gitignore for __pycache__, dist/, egg-info
 
- -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 29 Sep 2026 05:52:19 -0500
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Tue, 29 Sep 2026 06:28:22 -0500
 
 python-petname (2.10) stable; urgency=medium
 
